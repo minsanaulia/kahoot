@@ -1,7 +1,7 @@
 from flask import request, json, jsonify
 from random import randint
 
-from models import db, Games, Leaderboards, Questions, Quizzess
+from src.models.models import db, Games, Leaderboards, Questions, Quizzess
 from app import app
 
 # get All Games

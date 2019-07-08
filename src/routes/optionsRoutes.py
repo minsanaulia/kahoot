@@ -1,6 +1,6 @@
 from flask import request, json, jsonify
 
-from models import db, Questions, Options 
+from src.models.models import db, Questions, Options 
 from app import app
 
 @app.route('/question/<id_>/getAllOptions', methods=['GET'])

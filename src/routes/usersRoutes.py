@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from utils import utc7, generateToken
 from app import app
-from models import db, Users
+from src.models.models import db, Users
 
 # get All Users
 @app.route('/getAllUsers', methods=['GET'])

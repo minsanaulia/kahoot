@@ -1,7 +1,7 @@
 from flask import request, json, jsonify
 
 from app import app
-from models import db, Quizzess, Questions
+from src.models.models import db, Quizzess, Questions
 
 # get all quizzess
 @app.route('/quiz/getAllQuizzess', methods=['GET'])
